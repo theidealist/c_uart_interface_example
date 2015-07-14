@@ -288,6 +288,7 @@ private:
 	void write_thread(void);
 
 	int toggle_offboard_control( bool flag );
+	int toggle_stream( bool flag );
 	void write_setpoint();
 
 };
